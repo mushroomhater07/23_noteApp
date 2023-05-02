@@ -1,0 +1,4 @@
+npx create-react-app notes
+npm i react@latest react-dom@latest
+!
+rfc
