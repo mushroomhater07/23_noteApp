@@ -1,0 +1,31 @@
+run bungeecord
+[@echo off
+
+java -Xms512M -Xmx512M -jar BungeeCord.jar
+pause]
+config :
+player-limited
+online mode true (default)
+
+copy sth under the SERVER:
+change address port/address(different eg 1234,4321,1123)
+
+under listener:
+	host: change address port (0.0.0.0:25567 or localhost:1679)
+	
+ip forward true
+
+UNDER GROUPS:
+      MD_5: => playerid:
+	          eg: Skeppy:
+			  
+
+OTHER FOLDER
+        ser.properties online mode false
+		bukkit connection throtted -1
+		spigot bungeecord true
+		
+		
+Minecraft client :
+  connect to listener (host)
+          lobby must be online
